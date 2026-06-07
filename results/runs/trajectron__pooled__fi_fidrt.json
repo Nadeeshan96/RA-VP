@@ -1,0 +1,65 @@
+{
+  "method": "trajectron",
+  "kind": "pooled",
+  "key": "fi_fidrt",
+  "device": "mps",
+  "val_ade_m": 0.3297097509079495,
+  "threshold": 0.8100000000000002,
+  "K": 16,
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 2811,
+      "windows_valid": 2811,
+      "jaywalk_count": 151,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9884,
+      "recall_nonviolation": 0.9951,
+      "f1_nonviolation": 0.9918,
+      "precision_jaywalk": 0.9023,
+      "recall_jaywalk": 0.7947,
+      "f1_jaywalk": 0.8451,
+      "macro_f1": 0.9184,
+      "roc_auc": 0.9727,
+      "pr_auc": 0.8698,
+      "threshold": 0.81,
+      "confusion_matrix": [
+        [
+          2647,
+          13
+        ],
+        [
+          31,
+          120
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 3785,
+      "windows_valid": 3785,
+      "jaywalk_count": 219,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9847,
+      "recall_nonviolation": 0.9919,
+      "f1_nonviolation": 0.9883,
+      "precision_jaywalk": 0.8497,
+      "recall_jaywalk": 0.7489,
+      "f1_jaywalk": 0.7961,
+      "macro_f1": 0.8922,
+      "roc_auc": 0.9691,
+      "pr_auc": 0.8404,
+      "threshold": 0.81,
+      "confusion_matrix": [
+        [
+          3537,
+          29
+        ],
+        [
+          55,
+          164
+        ]
+      ]
+    }
+  ]
+}

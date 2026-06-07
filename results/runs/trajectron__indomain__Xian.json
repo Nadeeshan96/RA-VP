@@ -1,0 +1,65 @@
+{
+  "method": "trajectron",
+  "kind": "indomain",
+  "key": "Xian",
+  "device": "mps",
+  "val_ade_m": 0.3879769807372146,
+  "threshold": 0.5000000000000001,
+  "K": 16,
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 1355,
+      "windows_valid": 1355,
+      "jaywalk_count": 182,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9812,
+      "recall_nonviolation": 0.9787,
+      "f1_nonviolation": 0.9799,
+      "precision_jaywalk": 0.8649,
+      "recall_jaywalk": 0.8791,
+      "f1_jaywalk": 0.8719,
+      "macro_f1": 0.9259,
+      "roc_auc": 0.9565,
+      "pr_auc": 0.8677,
+      "threshold": 0.5,
+      "confusion_matrix": [
+        [
+          1148,
+          25
+        ],
+        [
+          22,
+          160
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 1509,
+      "windows_valid": 1509,
+      "jaywalk_count": 203,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9884,
+      "recall_nonviolation": 0.9747,
+      "f1_nonviolation": 0.9815,
+      "precision_jaywalk": 0.8507,
+      "recall_jaywalk": 0.9261,
+      "f1_jaywalk": 0.8868,
+      "macro_f1": 0.9341,
+      "roc_auc": 0.9824,
+      "pr_auc": 0.9482,
+      "threshold": 0.5,
+      "confusion_matrix": [
+        [
+          1273,
+          33
+        ],
+        [
+          15,
+          188
+        ]
+      ]
+    }
+  ]
+}

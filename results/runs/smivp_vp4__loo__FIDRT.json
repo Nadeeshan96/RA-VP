@@ -1,0 +1,62 @@
+{
+  "method": "smivp_vp4",
+  "kind": "loo",
+  "key": "FIDRT",
+  "threshold": 0.48000000000000026,
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 573,
+      "windows_valid": 573,
+      "jaywalk_count": 8,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 1.0,
+      "recall_nonviolation": 0.9929,
+      "f1_nonviolation": 0.9964,
+      "precision_jaywalk": 0.6667,
+      "recall_jaywalk": 1.0,
+      "f1_jaywalk": 0.8,
+      "macro_f1": 0.8982,
+      "roc_auc": 0.9987,
+      "pr_auc": 0.9116,
+      "threshold": 0.48,
+      "confusion_matrix": [
+        [
+          561,
+          4
+        ],
+        [
+          0,
+          8
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 1247,
+      "windows_valid": 1247,
+      "jaywalk_count": 45,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.994,
+      "recall_nonviolation": 0.9725,
+      "f1_nonviolation": 0.9832,
+      "precision_jaywalk": 0.5352,
+      "recall_jaywalk": 0.8444,
+      "f1_jaywalk": 0.6552,
+      "macro_f1": 0.8192,
+      "roc_auc": 0.9691,
+      "pr_auc": 0.7879,
+      "threshold": 0.48,
+      "confusion_matrix": [
+        [
+          1169,
+          33
+        ],
+        [
+          7,
+          38
+        ]
+      ]
+    }
+  ]
+}

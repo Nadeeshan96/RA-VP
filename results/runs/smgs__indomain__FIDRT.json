@@ -1,0 +1,61 @@
+{
+  "method": "smgs",
+  "kind": "indomain",
+  "key": "FIDRT",
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 573,
+      "windows_valid": 573,
+      "jaywalk_count": 8,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.993,
+      "recall_nonviolation": 1.0,
+      "f1_nonviolation": 0.9965,
+      "precision_jaywalk": 1.0,
+      "recall_jaywalk": 0.5,
+      "f1_jaywalk": 0.6667,
+      "macro_f1": 0.8316,
+      "roc_auc": 0.7699,
+      "pr_auc": 0.5138,
+      "threshold": 0.74,
+      "confusion_matrix": [
+        [
+          565,
+          0
+        ],
+        [
+          4,
+          4
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 1247,
+      "windows_valid": 1247,
+      "jaywalk_count": 45,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9693,
+      "recall_nonviolation": 0.9992,
+      "f1_nonviolation": 0.984,
+      "precision_jaywalk": 0.875,
+      "recall_jaywalk": 0.1556,
+      "f1_jaywalk": 0.2642,
+      "macro_f1": 0.6241,
+      "roc_auc": 0.9093,
+      "pr_auc": 0.5616,
+      "threshold": 0.74,
+      "confusion_matrix": [
+        [
+          1201,
+          1
+        ],
+        [
+          38,
+          7
+        ]
+      ]
+    }
+  ]
+}

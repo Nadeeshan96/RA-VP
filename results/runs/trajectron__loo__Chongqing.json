@@ -1,0 +1,65 @@
+{
+  "method": "trajectron",
+  "kind": "loo",
+  "key": "Chongqing",
+  "device": "mps",
+  "val_ade_m": 0.20788772884709453,
+  "threshold": 0.5000000000000001,
+  "K": 16,
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 5070,
+      "windows_valid": 5070,
+      "jaywalk_count": 486,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9842,
+      "recall_nonviolation": 0.9795,
+      "f1_nonviolation": 0.9818,
+      "precision_jaywalk": 0.815,
+      "recall_jaywalk": 0.8519,
+      "f1_jaywalk": 0.833,
+      "macro_f1": 0.9074,
+      "roc_auc": 0.9598,
+      "pr_auc": 0.8448,
+      "threshold": 0.5,
+      "confusion_matrix": [
+        [
+          4490,
+          94
+        ],
+        [
+          72,
+          414
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 4688,
+      "windows_valid": 4688,
+      "jaywalk_count": 480,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9868,
+      "recall_nonviolation": 0.9746,
+      "f1_nonviolation": 0.9806,
+      "precision_jaywalk": 0.7989,
+      "recall_jaywalk": 0.8854,
+      "f1_jaywalk": 0.8399,
+      "macro_f1": 0.9103,
+      "roc_auc": 0.964,
+      "pr_auc": 0.8587,
+      "threshold": 0.5,
+      "confusion_matrix": [
+        [
+          4101,
+          107
+        ],
+        [
+          55,
+          425
+        ]
+      ]
+    }
+  ]
+}

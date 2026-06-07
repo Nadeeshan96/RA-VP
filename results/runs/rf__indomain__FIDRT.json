@@ -1,0 +1,61 @@
+{
+  "method": "rf",
+  "kind": "indomain",
+  "key": "FIDRT",
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 573,
+      "windows_valid": 573,
+      "jaywalk_count": 8,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9965,
+      "recall_nonviolation": 0.9947,
+      "f1_nonviolation": 0.9956,
+      "precision_jaywalk": 0.6667,
+      "recall_jaywalk": 0.75,
+      "f1_jaywalk": 0.7059,
+      "macro_f1": 0.8507,
+      "roc_auc": 0.9604,
+      "pr_auc": 0.7355,
+      "threshold": 0.22,
+      "confusion_matrix": [
+        [
+          562,
+          3
+        ],
+        [
+          2,
+          6
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 1247,
+      "windows_valid": 1247,
+      "jaywalk_count": 45,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9851,
+      "recall_nonviolation": 0.9908,
+      "f1_nonviolation": 0.988,
+      "precision_jaywalk": 0.7105,
+      "recall_jaywalk": 0.6,
+      "f1_jaywalk": 0.6506,
+      "macro_f1": 0.8193,
+      "roc_auc": 0.9356,
+      "pr_auc": 0.6911,
+      "threshold": 0.22,
+      "confusion_matrix": [
+        [
+          1191,
+          11
+        ],
+        [
+          18,
+          27
+        ]
+      ]
+    }
+  ]
+}

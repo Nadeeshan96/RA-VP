@@ -1,0 +1,61 @@
+{
+  "method": "tcn",
+  "kind": "loo",
+  "key": "Tianjin",
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 9720,
+      "windows_valid": 9720,
+      "jaywalk_count": 492,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9613,
+      "recall_nonviolation": 0.9861,
+      "f1_nonviolation": 0.9736,
+      "precision_jaywalk": 0.4961,
+      "recall_jaywalk": 0.2561,
+      "f1_jaywalk": 0.3378,
+      "macro_f1": 0.6557,
+      "roc_auc": 0.883,
+      "pr_auc": 0.3725,
+      "threshold": 0.69,
+      "confusion_matrix": [
+        [
+          9100,
+          128
+        ],
+        [
+          366,
+          126
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 9423,
+      "windows_valid": 9423,
+      "jaywalk_count": 493,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9643,
+      "recall_nonviolation": 0.9826,
+      "f1_nonviolation": 0.9734,
+      "precision_jaywalk": 0.5201,
+      "recall_jaywalk": 0.3408,
+      "f1_jaywalk": 0.4118,
+      "macro_f1": 0.6926,
+      "roc_auc": 0.8897,
+      "pr_auc": 0.4004,
+      "threshold": 0.69,
+      "confusion_matrix": [
+        [
+          8775,
+          155
+        ],
+        [
+          325,
+          168
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "method": "smgs",
+  "kind": "loo",
+  "key": "Changchun",
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 2804,
+      "windows_valid": 2804,
+      "jaywalk_count": 165,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.966,
+      "recall_nonviolation": 0.9901,
+      "f1_nonviolation": 0.9779,
+      "precision_jaywalk": 0.7374,
+      "recall_jaywalk": 0.4424,
+      "f1_jaywalk": 0.553,
+      "macro_f1": 0.7655,
+      "roc_auc": 0.7961,
+      "pr_auc": 0.4021,
+      "threshold": 0.43,
+      "confusion_matrix": [
+        [
+          2613,
+          26
+        ],
+        [
+          92,
+          73
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 3135,
+      "windows_valid": 3135,
+      "jaywalk_count": 181,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9628,
+      "recall_nonviolation": 0.9905,
+      "f1_nonviolation": 0.9765,
+      "precision_jaywalk": 0.7083,
+      "recall_jaywalk": 0.3757,
+      "f1_jaywalk": 0.491,
+      "macro_f1": 0.7337,
+      "roc_auc": 0.7812,
+      "pr_auc": 0.4119,
+      "threshold": 0.43,
+      "confusion_matrix": [
+        [
+          2926,
+          28
+        ],
+        [
+          113,
+          68
+        ]
+      ]
+    }
+  ]
+}

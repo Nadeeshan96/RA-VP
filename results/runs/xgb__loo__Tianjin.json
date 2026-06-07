@@ -1,0 +1,61 @@
+{
+  "method": "xgb",
+  "kind": "loo",
+  "key": "Tianjin",
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 9720,
+      "windows_valid": 9720,
+      "jaywalk_count": 492,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9651,
+      "recall_nonviolation": 0.99,
+      "f1_nonviolation": 0.9774,
+      "precision_jaywalk": 0.6378,
+      "recall_jaywalk": 0.3293,
+      "f1_jaywalk": 0.4343,
+      "macro_f1": 0.7059,
+      "roc_auc": 0.9549,
+      "pr_auc": 0.5609,
+      "threshold": 0.77,
+      "confusion_matrix": [
+        [
+          9136,
+          92
+        ],
+        [
+          330,
+          162
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 9423,
+      "windows_valid": 9423,
+      "jaywalk_count": 493,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9658,
+      "recall_nonviolation": 0.9852,
+      "f1_nonviolation": 0.9754,
+      "precision_jaywalk": 0.5783,
+      "recall_jaywalk": 0.3671,
+      "f1_jaywalk": 0.4491,
+      "macro_f1": 0.7123,
+      "roc_auc": 0.9549,
+      "pr_auc": 0.5057,
+      "threshold": 0.77,
+      "confusion_matrix": [
+        [
+          8798,
+          132
+        ],
+        [
+          312,
+          181
+        ]
+      ]
+    }
+  ]
+}

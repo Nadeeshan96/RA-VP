@@ -1,0 +1,61 @@
+{
+  "method": "smgs",
+  "kind": "loo",
+  "key": "Xian",
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 1355,
+      "windows_valid": 1355,
+      "jaywalk_count": 182,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9696,
+      "recall_nonviolation": 0.9795,
+      "f1_nonviolation": 0.9746,
+      "precision_jaywalk": 0.8588,
+      "recall_jaywalk": 0.8022,
+      "f1_jaywalk": 0.8295,
+      "macro_f1": 0.9021,
+      "roc_auc": 0.9198,
+      "pr_auc": 0.7801,
+      "threshold": 0.43,
+      "confusion_matrix": [
+        [
+          1149,
+          24
+        ],
+        [
+          36,
+          146
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 1509,
+      "windows_valid": 1509,
+      "jaywalk_count": 203,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9591,
+      "recall_nonviolation": 0.9877,
+      "f1_nonviolation": 0.9732,
+      "precision_jaywalk": 0.9024,
+      "recall_jaywalk": 0.7291,
+      "f1_jaywalk": 0.8065,
+      "macro_f1": 0.8899,
+      "roc_auc": 0.8954,
+      "pr_auc": 0.7769,
+      "threshold": 0.43,
+      "confusion_matrix": [
+        [
+          1290,
+          16
+        ],
+        [
+          55,
+          148
+        ]
+      ]
+    }
+  ]
+}

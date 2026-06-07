@@ -1,0 +1,61 @@
+{
+  "method": "gru",
+  "kind": "pooled",
+  "key": "fi_fidrt",
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 2811,
+      "windows_valid": 2811,
+      "jaywalk_count": 151,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9823,
+      "recall_nonviolation": 0.9372,
+      "f1_nonviolation": 0.9592,
+      "precision_jaywalk": 0.3883,
+      "recall_jaywalk": 0.702,
+      "f1_jaywalk": 0.5,
+      "macro_f1": 0.7296,
+      "roc_auc": 0.8851,
+      "pr_auc": 0.3416,
+      "threshold": 0.67,
+      "confusion_matrix": [
+        [
+          2493,
+          167
+        ],
+        [
+          45,
+          106
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 3785,
+      "windows_valid": 3785,
+      "jaywalk_count": 219,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9779,
+      "recall_nonviolation": 0.9821,
+      "f1_nonviolation": 0.98,
+      "precision_jaywalk": 0.6863,
+      "recall_jaywalk": 0.6393,
+      "f1_jaywalk": 0.6619,
+      "macro_f1": 0.821,
+      "roc_auc": 0.8818,
+      "pr_auc": 0.6976,
+      "threshold": 0.67,
+      "confusion_matrix": [
+        [
+          3502,
+          64
+        ],
+        [
+          79,
+          140
+        ]
+      ]
+    }
+  ]
+}

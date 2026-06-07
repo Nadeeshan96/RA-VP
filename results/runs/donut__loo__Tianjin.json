@@ -1,0 +1,65 @@
+{
+  "method": "donut",
+  "kind": "loo",
+  "key": "Tianjin",
+  "device": "cuda",
+  "val_ade_m": 0.446009979374781,
+  "threshold": 0.7000000000000002,
+  "K": 16,
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 9720,
+      "windows_valid": 9720,
+      "jaywalk_count": 492,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.988,
+      "recall_nonviolation": 0.9906,
+      "f1_nonviolation": 0.9893,
+      "precision_jaywalk": 0.8141,
+      "recall_jaywalk": 0.7744,
+      "f1_jaywalk": 0.7937,
+      "macro_f1": 0.8915,
+      "roc_auc": 0.9787,
+      "pr_auc": 0.8482,
+      "threshold": 0.7,
+      "confusion_matrix": [
+        [
+          9141,
+          87
+        ],
+        [
+          111,
+          381
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 9423,
+      "windows_valid": 9423,
+      "jaywalk_count": 493,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.986,
+      "recall_nonviolation": 0.9872,
+      "f1_nonviolation": 0.9866,
+      "precision_jaywalk": 0.7635,
+      "recall_jaywalk": 0.7465,
+      "f1_jaywalk": 0.7549,
+      "macro_f1": 0.8707,
+      "roc_auc": 0.9727,
+      "pr_auc": 0.8228,
+      "threshold": 0.7,
+      "confusion_matrix": [
+        [
+          8816,
+          114
+        ],
+        [
+          125,
+          368
+        ]
+      ]
+    }
+  ]
+}

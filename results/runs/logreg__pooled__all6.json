@@ -1,0 +1,61 @@
+{
+  "method": "logreg",
+  "kind": "pooled",
+  "key": "all6",
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 21760,
+      "windows_valid": 21760,
+      "jaywalk_count": 1476,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9556,
+      "recall_nonviolation": 0.9575,
+      "f1_nonviolation": 0.9565,
+      "precision_jaywalk": 0.3994,
+      "recall_jaywalk": 0.3889,
+      "f1_jaywalk": 0.3941,
+      "macro_f1": 0.6753,
+      "roc_auc": 0.8659,
+      "pr_auc": 0.3615,
+      "threshold": 0.77,
+      "confusion_matrix": [
+        [
+          19421,
+          863
+        ],
+        [
+          902,
+          574
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 22540,
+      "windows_valid": 22540,
+      "jaywalk_count": 1576,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9524,
+      "recall_nonviolation": 0.9552,
+      "f1_nonviolation": 0.9538,
+      "precision_jaywalk": 0.3795,
+      "recall_jaywalk": 0.3648,
+      "f1_jaywalk": 0.372,
+      "macro_f1": 0.6629,
+      "roc_auc": 0.8667,
+      "pr_auc": 0.3721,
+      "threshold": 0.77,
+      "confusion_matrix": [
+        [
+          20024,
+          940
+        ],
+        [
+          1001,
+          575
+        ]
+      ]
+    }
+  ]
+}

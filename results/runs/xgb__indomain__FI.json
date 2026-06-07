@@ -1,0 +1,61 @@
+{
+  "method": "xgb",
+  "kind": "indomain",
+  "key": "FI",
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 2238,
+      "windows_valid": 2238,
+      "jaywalk_count": 143,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9821,
+      "recall_nonviolation": 0.9432,
+      "f1_nonviolation": 0.9623,
+      "precision_jaywalk": 0.4735,
+      "recall_jaywalk": 0.7483,
+      "f1_jaywalk": 0.5799,
+      "macro_f1": 0.7711,
+      "roc_auc": 0.9501,
+      "pr_auc": 0.5722,
+      "threshold": 0.82,
+      "confusion_matrix": [
+        [
+          1976,
+          119
+        ],
+        [
+          36,
+          107
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 2538,
+      "windows_valid": 2538,
+      "jaywalk_count": 174,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9711,
+      "recall_nonviolation": 0.9949,
+      "f1_nonviolation": 0.9829,
+      "precision_jaywalk": 0.8966,
+      "recall_jaywalk": 0.5977,
+      "f1_jaywalk": 0.7172,
+      "macro_f1": 0.8501,
+      "roc_auc": 0.9764,
+      "pr_auc": 0.8409,
+      "threshold": 0.82,
+      "confusion_matrix": [
+        [
+          2352,
+          12
+        ],
+        [
+          70,
+          104
+        ]
+      ]
+    }
+  ]
+}

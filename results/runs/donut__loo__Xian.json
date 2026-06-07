@@ -1,0 +1,65 @@
+{
+  "method": "donut",
+  "kind": "loo",
+  "key": "Xian",
+  "device": "cuda",
+  "val_ade_m": 0.67229371971723,
+  "threshold": 0.8100000000000002,
+  "K": 16,
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 1355,
+      "windows_valid": 1355,
+      "jaywalk_count": 182,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9559,
+      "recall_nonviolation": 0.9795,
+      "f1_nonviolation": 0.9676,
+      "precision_jaywalk": 0.8431,
+      "recall_jaywalk": 0.7088,
+      "f1_jaywalk": 0.7701,
+      "macro_f1": 0.8689,
+      "roc_auc": 0.9665,
+      "pr_auc": 0.8438,
+      "threshold": 0.81,
+      "confusion_matrix": [
+        [
+          1149,
+          24
+        ],
+        [
+          53,
+          129
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 1509,
+      "windows_valid": 1509,
+      "jaywalk_count": 203,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.962,
+      "recall_nonviolation": 0.9893,
+      "f1_nonviolation": 0.9755,
+      "precision_jaywalk": 0.9157,
+      "recall_jaywalk": 0.7488,
+      "f1_jaywalk": 0.8238,
+      "macro_f1": 0.8997,
+      "roc_auc": 0.9668,
+      "pr_auc": 0.8712,
+      "threshold": 0.81,
+      "confusion_matrix": [
+        [
+          1292,
+          14
+        ],
+        [
+          51,
+          152
+        ]
+      ]
+    }
+  ]
+}

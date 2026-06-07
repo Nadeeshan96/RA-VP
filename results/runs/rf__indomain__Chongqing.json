@@ -1,0 +1,61 @@
+{
+  "method": "rf",
+  "kind": "indomain",
+  "key": "Chongqing",
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 5070,
+      "windows_valid": 5070,
+      "jaywalk_count": 486,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9663,
+      "recall_nonviolation": 0.9747,
+      "f1_nonviolation": 0.9705,
+      "precision_jaywalk": 0.7399,
+      "recall_jaywalk": 0.679,
+      "f1_jaywalk": 0.7082,
+      "macro_f1": 0.8393,
+      "roc_auc": 0.9527,
+      "pr_auc": 0.7543,
+      "threshold": 0.44,
+      "confusion_matrix": [
+        [
+          4468,
+          116
+        ],
+        [
+          156,
+          330
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 4688,
+      "windows_valid": 4688,
+      "jaywalk_count": 480,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9315,
+      "recall_nonviolation": 0.9893,
+      "f1_nonviolation": 0.9595,
+      "precision_jaywalk": 0.7945,
+      "recall_jaywalk": 0.3625,
+      "f1_jaywalk": 0.4979,
+      "macro_f1": 0.7287,
+      "roc_auc": 0.911,
+      "pr_auc": 0.6436,
+      "threshold": 0.44,
+      "confusion_matrix": [
+        [
+          4163,
+          45
+        ],
+        [
+          306,
+          174
+        ]
+      ]
+    }
+  ]
+}

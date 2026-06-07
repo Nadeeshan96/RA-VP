@@ -1,0 +1,61 @@
+{
+  "method": "logreg",
+  "kind": "pooled",
+  "key": "sind4",
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 18949,
+      "windows_valid": 18949,
+      "jaywalk_count": 1325,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9568,
+      "recall_nonviolation": 0.962,
+      "f1_nonviolation": 0.9594,
+      "precision_jaywalk": 0.4553,
+      "recall_jaywalk": 0.4226,
+      "f1_jaywalk": 0.4384,
+      "macro_f1": 0.6989,
+      "roc_auc": 0.8719,
+      "pr_auc": 0.406,
+      "threshold": 0.77,
+      "confusion_matrix": [
+        [
+          16954,
+          670
+        ],
+        [
+          765,
+          560
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 18755,
+      "windows_valid": 18755,
+      "jaywalk_count": 1357,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9537,
+      "recall_nonviolation": 0.956,
+      "f1_nonviolation": 0.9549,
+      "precision_jaywalk": 0.4183,
+      "recall_jaywalk": 0.4053,
+      "f1_jaywalk": 0.4117,
+      "macro_f1": 0.6833,
+      "roc_auc": 0.8804,
+      "pr_auc": 0.4168,
+      "threshold": 0.77,
+      "confusion_matrix": [
+        [
+          16633,
+          765
+        ],
+        [
+          807,
+          550
+        ]
+      ]
+    }
+  ]
+}

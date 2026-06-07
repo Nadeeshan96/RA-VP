@@ -1,0 +1,10 @@
+{
+  "_comment": "External asset bundle for RA-VP.",
+  "bundle": {
+    "filename": "assets_bundle.tar.gz",
+    "url": "https://drive.google.com/file/d/1cSzvWsddwGy4SE5sLXB1q2_wnPxGj3iN/view?usp=drive_link",
+    "gdrive_id": "1cSzvWsddwGy4SE5sLXB1q2_wnPxGj3iN",
+    "sha256": "94f8439fa3a852cb2ad2cdc55346c2aec7a09c22e41f649aefa169eb26bf79dc",
+    "extract_to": "."
+  }
+}

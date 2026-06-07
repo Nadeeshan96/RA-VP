@@ -1,0 +1,62 @@
+{
+  "method": "smivp_vp4",
+  "kind": "loo",
+  "key": "Xian",
+  "threshold": 0.47000000000000025,
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 1355,
+      "windows_valid": 1355,
+      "jaywalk_count": 182,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9829,
+      "recall_nonviolation": 0.9804,
+      "f1_nonviolation": 0.9816,
+      "precision_jaywalk": 0.8757,
+      "recall_jaywalk": 0.8901,
+      "f1_jaywalk": 0.8828,
+      "macro_f1": 0.9322,
+      "roc_auc": 0.9827,
+      "pr_auc": 0.9103,
+      "threshold": 0.47,
+      "confusion_matrix": [
+        [
+          1150,
+          23
+        ],
+        [
+          20,
+          162
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 1509,
+      "windows_valid": 1509,
+      "jaywalk_count": 203,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9854,
+      "recall_nonviolation": 0.9801,
+      "f1_nonviolation": 0.9827,
+      "precision_jaywalk": 0.8762,
+      "recall_jaywalk": 0.9064,
+      "f1_jaywalk": 0.891,
+      "macro_f1": 0.9369,
+      "roc_auc": 0.9819,
+      "pr_auc": 0.9494,
+      "threshold": 0.47,
+      "confusion_matrix": [
+        [
+          1280,
+          26
+        ],
+        [
+          19,
+          184
+        ]
+      ]
+    }
+  ]
+}

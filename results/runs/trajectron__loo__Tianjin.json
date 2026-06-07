@@ -1,0 +1,65 @@
+{
+  "method": "trajectron",
+  "kind": "loo",
+  "key": "Tianjin",
+  "device": "mps",
+  "val_ade_m": 0.32868773818412095,
+  "threshold": 0.6100000000000001,
+  "K": 16,
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 9720,
+      "windows_valid": 9720,
+      "jaywalk_count": 492,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9929,
+      "recall_nonviolation": 0.9783,
+      "f1_nonviolation": 0.9855,
+      "precision_jaywalk": 0.681,
+      "recall_jaywalk": 0.8679,
+      "f1_jaywalk": 0.7632,
+      "macro_f1": 0.8744,
+      "roc_auc": 0.9761,
+      "pr_auc": 0.838,
+      "threshold": 0.61,
+      "confusion_matrix": [
+        [
+          9028,
+          200
+        ],
+        [
+          65,
+          427
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 9423,
+      "windows_valid": 9423,
+      "jaywalk_count": 493,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9919,
+      "recall_nonviolation": 0.9895,
+      "f1_nonviolation": 0.9907,
+      "precision_jaywalk": 0.8175,
+      "recall_jaywalk": 0.854,
+      "f1_jaywalk": 0.8353,
+      "macro_f1": 0.913,
+      "roc_auc": 0.9762,
+      "pr_auc": 0.8786,
+      "threshold": 0.61,
+      "confusion_matrix": [
+        [
+          8836,
+          94
+        ],
+        [
+          72,
+          421
+        ]
+      ]
+    }
+  ]
+}

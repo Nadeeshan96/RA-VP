@@ -1,0 +1,61 @@
+{
+  "method": "logreg",
+  "kind": "pooled",
+  "key": "fi_fidrt",
+  "splits": [
+    {
+      "split": "val",
+      "windows_total": 2811,
+      "windows_valid": 2811,
+      "jaywalk_count": 151,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9711,
+      "recall_nonviolation": 0.9222,
+      "f1_nonviolation": 0.946,
+      "precision_jaywalk": 0.2737,
+      "recall_jaywalk": 0.5166,
+      "f1_jaywalk": 0.3578,
+      "macro_f1": 0.6519,
+      "roc_auc": 0.8798,
+      "pr_auc": 0.2551,
+      "threshold": 0.8,
+      "confusion_matrix": [
+        [
+          2453,
+          207
+        ],
+        [
+          73,
+          78
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "windows_total": 3785,
+      "windows_valid": 3785,
+      "jaywalk_count": 219,
+      "skipped_no_hist": 0,
+      "precision_nonviolation": 0.9709,
+      "recall_nonviolation": 0.9347,
+      "f1_nonviolation": 0.9524,
+      "precision_jaywalk": 0.3381,
+      "recall_jaywalk": 0.5434,
+      "f1_jaywalk": 0.4168,
+      "macro_f1": 0.6846,
+      "roc_auc": 0.8625,
+      "pr_auc": 0.3759,
+      "threshold": 0.8,
+      "confusion_matrix": [
+        [
+          3333,
+          233
+        ],
+        [
+          100,
+          119
+        ]
+      ]
+    }
+  ]
+}
