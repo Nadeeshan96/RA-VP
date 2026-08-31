@@ -95,3 +95,16 @@ If you already have the tarball, skip the download:
 python download_assets.py --bundle /path/to/assets_bundle.tar.gz
 ```
 
+## Citation
+
+If you use this code or find our work useful, please cite:
+
+```bibtex
+@inproceedings{dissanayake2026ravp,
+  title     = {RA-VP: Risk-Aware Pedestrian Traffic Violation Prediction at Signalized Intersections},
+  author    = {Dissanayake, Nadeeshan and Borovica-Gajic, Renata and Tanin, Egemen and Karunasekera, Shanika},
+  booktitle = {Proceedings of the 34th ACM International Conference on Advances in Geographic Information Systems (SIGSPATIAL '26)},
+  year      = {2026},
+  doi       = {10.1145/3841645.3842969}
+}
+```
